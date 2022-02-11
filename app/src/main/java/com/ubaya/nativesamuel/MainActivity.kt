@@ -7,6 +7,7 @@ class MainActivity : AppCompatActivity() {
     // perlu bikin fitur login
     var login: Boolean = false
     var abc: String = "abc"
+  
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
